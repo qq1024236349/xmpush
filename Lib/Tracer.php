@@ -6,9 +6,9 @@
  * @desc 消息状态追踪API。
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
-use xmpush\Lib\HttpBase;
+use Xmpush\Lib\HttpBase;
 
 class Tracer extends HttpBase {
 	

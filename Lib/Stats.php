@@ -6,9 +6,9 @@
  * @desc 获取发送的消息统计数据。
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
-use xmpush\Lib\HttpBase;
+use Xmpush\Lib\HttpBase;
 
 class Stats extends HttpBase{
 	private $package;	//android用

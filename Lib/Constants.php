@@ -6,7 +6,7 @@
  * @desc 常量定义
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
 class Constants {
 	public static $domain = 'https://api.xmpush.xiaomi.com';

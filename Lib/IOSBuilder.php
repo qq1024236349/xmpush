@@ -7,9 +7,9 @@
  * @desc 构建发送给IOS设备的Message对象。
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
-use xmpush\Lib\Message;
+use Xmpush\Lib\Message;
 
 class IOSBuilder extends Message {
 	const soundUrl = 'sound_url'; 

@@ -6,9 +6,9 @@
  * @desc 构建发送给Android设备的Message对象。
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
-use xmpush\Lib\Message;
+use Xmpush\Lib\Message;
 
 class Builder extends Message{
 	const soundUri = 'sound_uri';

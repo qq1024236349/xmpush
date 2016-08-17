@@ -6,9 +6,9 @@
  * @desc 获取失效的regId列表。
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
-use xmpush\Lib\HttpBase;
+use Xmpush\Lib\HttpBase;
 
 class Feedback extends HttpBase {
 	

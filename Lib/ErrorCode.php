@@ -6,7 +6,7 @@
  * @desc 错误码
  *
  */
-namespace xmpush\lib;
+namespace Xmpush\Lib;
 
 class ErrorCode {
 	const Success = 0;
