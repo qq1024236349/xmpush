@@ -7,17 +7,17 @@
  */
 namespace xmpush\src;
 
-use xmpush\Builder;
-use xmpush\IOSBuilder;
-use xmpush\HttpBase;
-use xmpush\Sender;
-use xmpush\Constants;
-use xmpush\Stats;
-use xmpush\Tracer;
-use xmpush\Feedback;
-use xmpush\DevTools;
-use xmpush\Subscription;
-use xmpush\TargetedMessage;
+use xmpush\lib\Builder;
+use xmpush\lib\IOSBuilder;
+use xmpush\lib\HttpBase;
+use xmpush\lib\Sender;
+use xmpush\lib\Constants;
+use xmpush\lib\Stats;
+use xmpush\lib\Tracer;
+use xmpush\lib\Feedback;
+use xmpush\lib\DevTools;
+use xmpush\lib\Subscription;
+use xmpush\lib\TargetedMessage;
 
 class xmpush{
 

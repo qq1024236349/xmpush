@@ -4,7 +4,7 @@
  * @name HttpBase
  *
  */
-namespace xmpush;
+namespace xmpush\lib;
 
 class HttpBase {
 	private $appSecret;

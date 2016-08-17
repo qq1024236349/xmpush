@@ -5,7 +5,7 @@
  * @name Subscription
  *
  */
-namespace xmpush;
+namespace xmpush\lib;
 
 class Subscription extends HttpBase {
 	

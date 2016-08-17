@@ -5,7 +5,7 @@
  * @name DevTools
  *
  */
-namespace xmpush;
+namespace xmpush\lib;
 
 class DevTools extends HttpBase {
 	
