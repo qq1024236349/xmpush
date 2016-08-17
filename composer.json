@@ -1,0 +1,11 @@
+{
+    "name": "xionggang/xmpush",
+    "description": "小米推送服务",
+    "authors": [
+        {
+            "name": "xionggang",
+            "email": "xionggang@126.com"
+        }
+    ],
+    "require": {}
+}
