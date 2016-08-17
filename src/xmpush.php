@@ -24,16 +24,16 @@ class xmpush{
 	/**
 	 * IOS推送
 	 */
-	public static function iospush(){
+	public static function iospush($aliasList,$desc,$content){
 		$secret = 'your app secret';
 		$bundleId = 'your app bundleId';
 
 		Constants::setBundleId($bundleId);
 		Constants::setSecret($secret);
 
-		$aliasList = array('2', 'alias2');
-		$desc = '这是一条mipush推送消息';
-		$payload = '{"test":1,"ok":"It\'s a string"}';
+//		$aliasList = array('2', 'alias2');
+//		$desc = '这是一条mipush推送消息';
+		$payload = '{"cont":'.$content.'}';
 
 		$message = new IOSBuilder();
 		$message->description($desc);
@@ -49,7 +49,7 @@ class xmpush{
 	/**
 	 * 安卓推送
 	 */
-	public static function androidpush(){
+	public static function androidpush($aliasList,$title='',$desc,$content){
 
 		$secret = 'your app secret';
 		$package = 'your app packagename';
@@ -58,10 +58,10 @@ class xmpush{
 		Constants::setPackage($package);
 		Constants::setSecret($secret);
 
-		$aliasList = array('alias1', 'alias2');
-		$title = '你好';
-		$desc = '这是一条mipush推送消息';
-		$payload = '{"test":1,"ok":"It\'s a string"}';
+//		$aliasList = array('alias1', 'alias2');
+//		$title = '你好';
+//		$desc = '这是一条mipush推送消息';
+		$payload = '{"cont":'.$content.'}';
 
 		$sender = new Sender();
 
